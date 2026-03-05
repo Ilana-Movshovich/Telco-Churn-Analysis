@@ -1,0 +1,19 @@
+# 📊 Telco Customer Churn Analysis
+
+This project analyzes a telecommunications dataset to identify key factors contributing to customer churn and provides actionable insights for retention strategies.
+
+## 🚀 Interactive Notebook
+GitHub's built-in notebook viewer can sometimes have issues with navigation links. For the best experience, including a **fully functional Table of Contents**, please view the project via **nbviewer**:
+
+👉 **[View the Full Analysis on nbviewer](PASTE_YOUR_NBVIEWER_URL_HERE)**
+
+---
+
+## 🛠️ Project Highlights
+* **Exploratory Data Analysis**: Deep dive into demographics, geography, and service patterns.
+* **Key Metrics**: Analysis of Churn Rate, QRR, ARPU, and CLTV.
+* **Insights**: Identifying high-risk customer segments based on contract types and tenure.
+
+## 📂 Repository Contents
+* `Telco_Churn_Analysis (GitHub Ver.).ipynb`: The complete Python analysis and visualizations.
+* `README.md`: Project overview and navigation.

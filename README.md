@@ -6,16 +6,15 @@ This project analyzes a telecommunications dataset to identify key factors contr
 GitHub's built-in notebook viewer often fails to render interactive visualizations and can have issues with navigation links. 
 
 To view the **full analysis, interactive Tableau charts, and a functional Table of Contents**, please use the nbviewer link below:
-
 👉 **[View the Full Analysis on nbviewer](https://nbviewer.org/github/Ilana-Movshovich/Telco-Churn-Analysis/blob/main/Telco_Churn_Analysis.ipynb#3.4.1-Churn-Score)**
 
 ---
 
 ## 🛠️ Project Highlights
-* **Exploratory Data Analysis**: Deep dive into demographics, geography, and service patterns.
-* **Churn Overview Dashboard: 
-* **Key Metrics**: Analysis of Churn Rate, QRR, ARPU, and CLTV.
-* **Insights**: Identifying high-risk customer segments based on contract types and tenure.
+* **Exploratory Data Analysis**: A comprehensive deep dive into customer demographics, geographical distribution, and service usage patterns.
+* **Churn Overview Dashboard**: A centralized Tableau dashboard providing a high-level view of critical KPIs and churn distribution across various categories like contract type, offer, city, etc.
+* **Key Performance Indicators (KPIs)**: Detailed tracking and analysis of Churn Rate, Net Customer Change, QRR, ARPU, and CLTV.
+* **Actionable Insights**: Identification of high-risk segments, such as customers on Month-to-Month contracts or those influenced by competitor offers.
 
 ## 📂 Repository Contents
 * `Telco_Churn_Analysis.ipynb`: The complete Python analysis and visualizations.

@@ -17,6 +17,14 @@ To view the **full analysis, interactive Tableau charts, and a functional Table 
 * **Key Performance Indicators (KPIs)**: Detailed tracking and analysis of Churn Rate, Net Customer Change, QRR, ARPU, and CLTV.
 * **Actionable Insights**: Identification of high-risk segments, such as customers on Month-to-Month contracts or those influenced by competitor offers.
 
+## 📂 Dataset Information
+The analysis is based on multiple datasets reflecting different aspects of customer behavior. All raw data files can be found in the [/data](./data) folder:
+
+* **Demographics.csv**: Personal information such as gender, age, and marital status.
+* **Services.csv**: Details on internet types, contract types, tenure lengths, add-ons, etc.
+* **Population.csv**: Geographical data used for city-level churn analysis.
+* **Status.csv**: The target data containing churn labels and churn reasons.
+
 ## 📂 Repository Contents
 * `Telco_Churn_Analysis.ipynb`: The complete Python analysis and visualizations.
 * `README.md`: Project overview and navigation.

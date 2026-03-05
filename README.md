@@ -20,10 +20,10 @@ To view the **full analysis, interactive Tableau charts, and a functional Table 
 ## 📂 Dataset Information
 The analysis is based on multiple datasets reflecting different aspects of customer behavior. All raw data files can be found in the [/dataset](./dataset) folder:
 
-* **Demographics.csv**: Personal information such as gender, age, and marital status.
-* **Services.csv**: Details on internet types, contract types, tenure lengths, phone services, friend referrals, add-ons, etc.
-* **Population.csv**: Population size per zipcode.
-* **Status.csv**: customer churn status data such as churn status (Yes/No), churn score, CLTV, satisfaction score, churn category and churn reason.
+* **demographics.csv**: Personal information such as gender, age, and marital status.
+* **services.csv**: Details on internet types, contract types, tenure lengths, phone services, friend referrals, add-ons, etc.
+* **population.csv**: Population size per zipcode.
+* **churn_status.csv**: customer churn status data such as churn status (Yes/No), churn score, CLTV, satisfaction score, churn category and churn reason.
 
 ## 📂 Repository Contents
 * `Telco_Churn_Analysis.ipynb`: The complete Python analysis and visualizations.

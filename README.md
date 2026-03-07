@@ -26,8 +26,11 @@ The analysis is based on multiple datasets reflecting different aspects of custo
 * **`demographics.csv`**: Personal information such as gender, age, and marital status.
 * **`services.csv`**: Details on internet types, contract types, tenure lengths, phone services, friend referrals, add-ons, etc.
 * **`population.csv`**: Population size per zipcode.
+* **`location.csv`**: 
 * **`churn_status.csv`**: customer churn status data such as churn status (Yes/No), churn score, CLTV, satisfaction score, churn category and churn reason.
 
 ## 🗄️ Repository Contents
-* **`Telco_Churn_Analysis.ipynb`**: The complete Python analysis, including data merging, EDA, and visualizations.
+* **`Dataset/`**: A dedicated directory containing the 4 raw CSV files used in this analysis (Demographics, Services, Population, and Churn Status).
+* **`Telco_Churn_Analysis.ipynb`**: The complete Python analysis, covering data merging, EDA, and visualizations.
+* **`Telco_Churn_Presentation.pptx`**: A comprehensive project summary and presentation (in Hebrew) covering the key churn insights.
 * **`README.md`**: Project overview, data dictionary, and navigation guide.

@@ -7,7 +7,7 @@ GitHub's built-in notebook viewer often fails to render interactive visualizatio
 
 To view the **full analysis, interactive Tableau charts, and a functional Table of Contents**, please use the nbviewer link below:
 
-👉 **[View the Full Analysis on nbviewer](https://nbviewer.org/github/Ilana-Movshovich/Telco-Churn-Analysis/blob/main/Telco_Churn_Analysis.ipynb#)**
+👉 **[View the Full Analysis on nbviewer](https://nbviewer.org/github/Ilana-Movshovich/Telco-Churn-Analysis/blob/main/Telco_Churn_Analysis.ipynb)**
 
 ---
 

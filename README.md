@@ -18,7 +18,7 @@ To view the **full analysis, interactive Tableau charts, and a functional Table 
 * **`Actionable Insights`**: Identification of high-risk segments, such as customers on Month-to-Month contracts or those influenced by competitor offers.
 
 ## 📍 Data Source
-This project utilizes the **Telco Customer Churn dataset**, originally provided by **IBM** via the **Maven Analytics** platform. The dataset consists of 7,043 records representing a fictitious telecommunications company in California.
+This project utilizes the **Telco Customer Churn dataset**, originally provided by **IBM**. The dataset consists of 7,043 records representing a fictitious telecommunications company in California.
 
 ## 📂 Dataset Information
 The analysis is based on multiple datasets reflecting different aspects of customer behavior. All raw data files can be found in the [/dataset](./dataset) folder:

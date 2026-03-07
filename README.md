@@ -12,12 +12,16 @@ To view the **full analysis, interactive Tableau charts, and a functional Table 
 ---
 
 ## 🛠️ Project Highlights
-* **Exploratory Data Analysis**: A comprehensive deep dive into customer demographics, geographical distribution, and service usage patterns.
-* **Churn Overview Dashboard**: A centralized Tableau dashboard providing a high-level view of critical KPIs and churn distribution across various categories like contract type, offer, city, etc.
-* **Key Performance Indicators (KPIs)**: Detailed tracking and analysis of Churn Rate, Net Customer Change, QRR, ARPU, and CLTV.
-* **Actionable Insights**: Identification of high-risk segments, such as customers on Month-to-Month contracts or those influenced by competitor offers.
+* **`Exploratory Data Analysis`**: A comprehensive deep dive into customer demographics, geographical distribution, and service usage patterns.
+* **`Churn Overview Dashboard`**: A centralized Tableau dashboard providing a high-level view of critical KPIs and churn distribution across various categories like contract type, offer, city, etc.
+* **`Key Performance Indicators (KPIs)`**: Detailed tracking and analysis of Churn Rate, Net Customer Change, QRR, ARPU, and CLTV.
+* **`Actionable Insights`**: Identification of high-risk segments, such as customers on Month-to-Month contracts or those influenced by competitor offers.
 
 ## 📂 Dataset Information
+
+## 📍 Data Source
+This project utilizes the **Telco Customer Churn dataset**, originally provided by **IBM** via the **Maven Analytics** platform. The dataset consists of 7,043 records representing a fictitious telecommunications company in California.
+
 The analysis is based on multiple datasets reflecting different aspects of customer behavior. All raw data files can be found in the [/dataset](./dataset) folder:
 
 * **demographics.csv**: Personal information such as gender, age, and marital status.
@@ -25,6 +29,6 @@ The analysis is based on multiple datasets reflecting different aspects of custo
 * **population.csv**: Population size per zipcode.
 * **churn_status.csv**: customer churn status data such as churn status (Yes/No), churn score, CLTV, satisfaction score, churn category and churn reason.
 
-## 📂 Repository Contents
-* `Telco_Churn_Analysis.ipynb`: The complete Python analysis and visualizations.
-* `README.md`: Project overview and navigation.
+## 🗄️ Repository Contents
+* **`Telco_Churn_Analysis.ipynb`**: The complete Python analysis, including data merging, EDA, and visualizations.
+* **`README.md`**: Project overview, data dictionary, and navigation guide.

@@ -26,8 +26,8 @@ The analysis is based on multiple datasets reflecting different aspects of custo
 * **`demographics.csv`**: Personal information such as gender, age, and marital status.
 * **`services.csv`**: Details on internet types, contract types, tenure lengths, phone services, friend referrals, add-ons, etc.
 * **`population.csv`**: Population size per zipcode.
-* **`location.csv`**: 
-* **`churn_status.csv`**: customer churn status data such as churn status (Yes/No), churn score, CLTV, satisfaction score, churn category and churn reason.
+* **`location.csv`**: Details on each city, includig zipcode and coordinates.
+* **`churn_status.csv`**: Customer churn status data such as churn status (Yes/No), churn score, CLTV, satisfaction score, churn category and churn reason.
 
 ## 🗄️ Repository Contents
 * **`Dataset/`**: A dedicated directory containing the 4 raw CSV files used in this analysis (Demographics, Services, Population, and Churn Status).

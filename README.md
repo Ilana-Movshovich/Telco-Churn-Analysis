@@ -33,4 +33,3 @@ The analysis is based on multiple datasets reflecting different aspects of custo
 * **`Dataset/`**: A dedicated directory containing the 4 raw CSV files used in this analysis (Demographics, Services, Population, and Churn Status).
 * **`Telco_Churn_Analysis.ipynb`**: The complete Python analysis, covering data merging, EDA, and visualizations.
 * **`Telco_Churn_Presentation.pptx`**: A comprehensive project summary and presentation (in Hebrew) covering the key churn insights.
-* **`README.md`**: Project overview, data dictionary, and navigation guide.

@@ -23,7 +23,7 @@ I used AI tools (Claude/Gemini) to audit my initial findings and help solve spec
 
 * **Deeper Churn Insights:**
     * **`The "Neutral" Risk`**: Looked specifically at customers with a **Satisfaction Score of 3**. Identified that those on **Month-to-Month Fiber plans** are the most at-risk, with one specific promotion (**Offer E**) reaching a **69.7% churn rate**.
-    * **`Revenue at Risk`**: Shifted the focus from just counting lost customers to calculating **lost revenue**, highlighting a **$3.68M impact** among high-value accounts.
+    * **`Revenue Leakage (CLTV Tiers)`**: Shifted focus from just counting "heads" to calculating the actual **financial impact** across CLTV quartiles. This revealed that while **"Whales" (Top 25% CLTV)** made up only a portion of churners, they were responsible for **32.4% ($1.19M)** of the total revenue lost.
     * **`Fact-Checking Assumptions`**: Proved that **"Senior Churn"** was actually caused by **contract length** and **internet type**, not age.
     * **`Offer Analysis`**: Identified that **Offer E** was likely attracting short-term users who left quickly rather than building long-term loyalty.
 

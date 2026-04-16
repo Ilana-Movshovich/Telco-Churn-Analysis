@@ -17,6 +17,20 @@ To view the **full analysis, interactive Tableau charts, and a functional Table 
 * **`Key Performance Indicators (KPIs)`**: Detailed tracking and analysis of Churn Rate, Net Customer Change, Estimated MRR, ARPU, and Quarterly Revenue at Risk.
 * **`Actionable Insights`**: Identification of high-risk segments, such as customers on Month-to-Month contracts or those influenced by competitor offers.
 
+## 🛠️ Analysis Refinement
+
+I used AI tools (Claude/Gemini) to audit my initial findings and help solve specific analytical gaps:
+
+* **Deeper Churn Insights:**
+    * **`The "Neutral" Risk`**: Looked specifically at customers with a **Satisfaction Score of 3**. Identified that those on **Month-to-Month Fiber plans** are the most at-risk, with one specific promotion (**Offer E**) reaching a **69.7% churn rate**.
+    * **`Revenue at Risk`**: Shifted the focus from just counting lost customers to calculating **lost revenue**, highlighting a **$3.68M impact** among high-value accounts.
+    * **`Fact-Checking Assumptions`**: Proved that **"Senior Churn"** was actually caused by **contract length** and **internet type**, not age.
+    * **`Offer Analysis`**: Identified that **Offer E** was likely attracting short-term users who left quickly rather than building long-term loyalty.
+
+* **SQL Optimization:**
+    * **`Performance at Scale`**: Rewrote queries to run faster on larger datasets (700k+ rows) by fixing redundant code and improving how the database searches through information (**SARGability**).
+    * **`Defensive Coding`**: Added safety checks to prevent errors like **dividing by zero** during calculations.
+      
 ## 📍 Data Source
 This project utilizes the **Telco Customer Churn dataset**, originally provided by **IBM**. The dataset consists of 7,043 records representing a fictitious telecommunications company in California.
 

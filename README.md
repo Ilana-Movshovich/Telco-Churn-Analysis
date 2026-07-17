@@ -22,17 +22,17 @@ To view the **full analysis, interactive Tableau charts, and a functional Table 
 I used AI tools (Claude/Gemini) to audit my initial findings and help solve specific analytical gaps:
 
 * **Deeper Churn Insights:**
-    * **`The "Neutral" Risk`**: Looked specifically at customers with a **Satisfaction Score of 3**. Identified that those on **Month-to-Month Fiber plans** are the most at-risk, with one specific promotion (**Offer E**) reaching a **69.7% churn rate**.
-    * **`Revenue Leakage (CLTV Tiers)`**: Shifted focus from just counting "heads" to calculating the actual **financial impact** across CLTV quartiles. This revealed that while **"Whales" (Top 25% CLTV)** made up only a portion of churners, they were responsible for **32.4% ($1.19M)** of the total revenue lost.
-    * **`Fact-Checking Assumptions`**: Proved that **"Senior Churn"** was actually caused by **contract length** and **internet type**, not age.
-    * **`Offer Analysis`**: Identified that **Offer E** was likely attracting short-term users who left quickly rather than building long-term loyalty.
+    * **`The "Neutral" Risk`**: Looked specifically at customers with a Satisfaction Score of 3. Identified that those on Month-to-Month Fiber plans are the most at-risk, with one specific promotion (Offer E) reaching a 69.7% churn rate**.
+    * **`Revenue Leakage (CLTV Tiers)`**: Shifted focus from just counting "heads" to calculating the actual financial impact across CLTV quartiles. This revealed that while "Whales" (Top 25% CLTV) made up only a portion of churners, they were responsible for **32.4% ($1.19M)** of the total revenue lost.
+    * **`Fact-Checking Assumptions`**: Proved that senior churn was actually caused by contract length and internet type, not age.
+    * **`Offer Analysis`**: Identified that Offer E was likely attracting short-term users who left quickly rather than building long-term loyalty.
 
 * **SQL Optimization:**
     * **`Performance at Scale`**: Rewrote queries to run faster on larger datasets (700k+ rows) by fixing redundant code and improving how the database searches through information (**SARGability**).
-    * **`Defensive Coding`**: Added safety checks to prevent errors like **dividing by zero** during calculations.
+    * **`Defensive Coding`**: Added safety checks to prevent errors like dividing by zero during calculations.
       
 ## 📍 Data Source
-This project utilizes the **Telco Customer Churn dataset**, originally provided by **IBM**. The dataset consists of 7,043 records representing a fictitious telecommunications company in California.
+This project utilizes the Telco Customer Churn dataset, originally provided by IBM. The dataset consists of 7,043 records representing a fictitious telecommunications company in California.
 
 ## 📂 Dataset Information
 The analysis is based on multiple datasets reflecting different aspects of customer behavior. All raw data files can be found in the [/dataset](./dataset) folder:

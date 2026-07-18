@@ -19,7 +19,7 @@ To view the full analysis, interactive Tableau charts, and a functional Table of
 
 ## 🛠️ Analysis Refinement
 
-I used AI tools (Claude/Gemini) to audit my initial findings and help solve specific analytical gaps:
+AI tools (Claude/Gemini) were used to review query performance, validate analytical assumptions, and identify opportunities for SQL optimization:
 
 * **Deeper Churn Insights:**
     * **`Neutral Customers' Risk`**: Looked specifically at customers with a Satisfaction Score of 3. Identified that those on Month-to-Month Fiber plans are the most at-risk, with one specific promotion (Offer E) reaching a 69.7% churn rate**.
